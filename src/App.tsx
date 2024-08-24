@@ -71,7 +71,7 @@ function PlayWithRow() {
           </Select>
         </FormControl>
 
-        <FormControl fullWidth>
+        {/* <FormControl fullWidth>
           <InputLabel>Cross Axis Alignment</InputLabel>
           <Select label="Cross Axis Alignment" value={rowConfig?.crossAxisAlignment} onChange={(e) => setRowConfig({ ...rowConfig, crossAxisAlignment: e.target.value as CrossAxisAlignment })}>
             <MenuItem value={"start"} >start</MenuItem>
@@ -80,7 +80,7 @@ function PlayWithRow() {
             <MenuItem value={"stretch"} >stretch</MenuItem>
             <MenuItem value={"baseline"} >baseline</MenuItem>
           </Select>
-        </FormControl>
+        </FormControl> */}
 
         <FormControl fullWidth>
           <InputLabel>Gap</InputLabel>
@@ -157,7 +157,7 @@ function PlayWithColumn() {
           </Select>
         </FormControl>
 
-        <FormControl fullWidth>
+        {/* <FormControl fullWidth>
           <InputLabel>Cross Axis Alignment</InputLabel>
           <Select label="Cross Axis Alignment" value={colConfig?.crossAxisAlignment} onChange={(e) => setColConfig({ ...colConfig, crossAxisAlignment: e.target.value as CrossAxisAlignment })}>
             <MenuItem value={"start"} >start</MenuItem>
@@ -166,7 +166,7 @@ function PlayWithColumn() {
             <MenuItem value={"stretch"} >stretch</MenuItem>
             <MenuItem value={"baseline"} >baseline</MenuItem>
           </Select>
-        </FormControl>
+        </FormControl> */}
 
         <FormControl fullWidth>
           <InputLabel>Gap</InputLabel>
